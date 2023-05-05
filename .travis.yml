@@ -27,7 +27,7 @@ deploy:
   provider: elasticbeanstalk
   region: 'us-west-2'
   app: 'fibDocker'
-  env: 'FiboDocker-env'
+  env: 'FibDocker-env'
   bucket_name: 'elasticbeanstalk-us-west-2-968507404816'
   bucket_path: 'fibDocker'
   on:
